@@ -1,0 +1,17 @@
+{# app/Resources/views/default/create-product.html.twig #}
+{{ form_start(form) }}
+{{ form_widget(form) }}
+{{ form_end(form) }}
+
+{#{{ form_start(form) }}#}
+    {# render the category's only field: name #}
+    {#{{ form_row(form.name) }}#}
+
+{#<h3>Products in Category:</h3>#}
+{#<ul class="products">#}
+    {# iterate over each existing tag and render its only field: name #}
+    {#{% for product in form.products %}#}
+        {#<li>{{ form_row(product.name) }}</li>#}
+    {#{% endfor %}#}
+{#</ul>#}
+{#{{ form_end(form) }}#}
