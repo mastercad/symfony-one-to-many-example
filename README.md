@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmastercad%2FsymfonyOneToManyExample.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmastercad%2FsymfonyOneToManyExample?ref=badge_shield)
+
 oneToMany
 =========
 
@@ -89,3 +91,7 @@ beim initialen migrieren kam folgender fehler:
     public function __toString() {
         return $this->getName();
     }
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmastercad%2FsymfonyOneToManyExample.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmastercad%2FsymfonyOneToManyExample?ref=badge_large)
